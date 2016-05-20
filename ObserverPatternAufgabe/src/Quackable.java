@@ -8,10 +8,11 @@
 package headfirst.designpatterns.combining.observer;
 
 /**
-*	Pattern: Factory/Decorator Method
-*	Beschreibung: 	Diese Klasse erbt von der Klasse QuackObservable
+*	Pattern: Factory Method/Decorator/Adapter
+*	Beschreibung: 	Dieses Interface erbt von der Klasse QuackObservable
 *					Somit Überschreibt es die Methoden der Klasse QuackObservable.
-*					Diese Klasse ruft die Methode quack auf.
+*					Außerdem ist es ein Interface					
+*					Diese Klasse deffiniert und stellt die Methode quack zu verfügung damit die anderen Klassen diese Überschreiben können.
 *					
 **/
 
