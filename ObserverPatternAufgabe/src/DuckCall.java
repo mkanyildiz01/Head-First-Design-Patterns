@@ -8,7 +8,7 @@
 package headfirst.designpatterns.combining.observer;
 
 /**
-*	Pattern: Factory Method
+*	Pattern: Factory/Decorator Method
 *	Beschreibung: 	Diese Klasse implementiert vom Interface Quackable.
 *					Somit enthlt es alle Attribute und Methoden(1 Methode in unserem Fall) von Quackable.
 *					
