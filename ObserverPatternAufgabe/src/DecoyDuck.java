@@ -1,6 +1,8 @@
 package headfirst.designpatterns.combining.observer;
 
 public class DecoyDuck implements Quackable {
+	
+	
 	Observable observable;
 
 	public DecoyDuck() {
