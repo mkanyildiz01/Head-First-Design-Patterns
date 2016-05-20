@@ -14,6 +14,9 @@ package headfirst.designpatterns.combining.observer;
 *
 **/
 public interface QuackObservable {
+	/**
+	*	Die Methode registerObserver hat einen Parameter mit dem Typen Observer.
+	**/
 	public void registerObserver(Observer observer);
 	public void notifyObservers();
 }
